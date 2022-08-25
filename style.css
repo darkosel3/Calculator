@@ -1,0 +1,44 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	font-size: 35px;
+}
+.previus-operand {
+	font-size: 25px;
+	margin-bottom: 20px;
+	font-weight: 100;
+}
+.main {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+.calculator {
+	width: 30vw;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.buttons {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-template-rows: repeat(4, 100px);
+	/* grid-template-columns: repeat(1fr); */
+	grid-gap: 10px;
+	margin-top: 10px;
+}
+.span-2 {
+	grid-column: span 2;
+}
+.output {
+	display: flex;
+	justify-content: space-around;
+	align-items: flex-end;
+	flex-direction: column;
+	border: 1px solid black;
+	height: 10vh;
+	padding: 5px;
+}
