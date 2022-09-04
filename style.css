@@ -16,10 +16,14 @@
 	height: 100vh;
 }
 .calculator {
+	background-color: #e2cfea;
 	width: 30vw;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
+	border: solid 3px black;
+	border-radius: 15px;
+	padding: 30px;
 }
 
 .buttons {
@@ -28,12 +32,13 @@
 	grid-template-rows: repeat(4, 100px);
 	/* grid-template-columns: repeat(1fr); */
 	grid-gap: 10px;
-	margin-top: 10px;
+	margin-top: 30px;
 }
 .span-2 {
 	grid-column: span 2;
 }
 .output {
+	background-color: #fff;
 	display: flex;
 	justify-content: space-around;
 	align-items: flex-end;
@@ -41,4 +46,12 @@
 	border: 1px solid black;
 	height: 10vh;
 	padding: 5px;
+	border-radius: 15px;
+}
+.grid-item {
+	background-color: #a06cd5;
+}
+
+.grid-item:hover {
+	background-color: #6247aa;
 }
